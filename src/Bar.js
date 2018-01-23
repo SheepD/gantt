@@ -1,4 +1,3 @@
-/* global Snap */
 /*
 	Class: Bar
 
@@ -6,6 +5,7 @@
 		gt: Gantt object
 		task: task object
 */
+import Snap from 'snapsvg-cjs';
 
 export default function Bar(gt, task) {
 

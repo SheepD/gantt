@@ -1,4 +1,3 @@
-/* global Snap */
 /*
 	Class: Arrow
 	from_task ---> to_task
@@ -8,6 +7,7 @@
 		from_task (Bar object)
 		to_task (Bar object)
 */
+import Snap from 'snapsvg-cjs';
 
 export default function Arrow(gt, from_task, to_task) {
 
